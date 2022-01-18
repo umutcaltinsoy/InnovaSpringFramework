@@ -7,12 +7,12 @@ import javax.inject.Named;
 
 @Named
 @ApplicationScoped
-public class Computer implements Serializable {
+public class _01_Named implements Serializable {
 	
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -2729413083259464270L;
 	private String computerName;
 	
 	// Getter and Setter
@@ -25,13 +25,13 @@ public class Computer implements Serializable {
 	}
 	
 	// Unparameterized Const.
-	public Computer() {
+	public _01_Named() {
 		this.computerName = "Bilgisayar Adı ASUS-X550J";
 		
 	}
 	
 	// Parameterized Const.
-	public Computer(String computerName) {
+	public _01_Named(String computerName) {
 		this.computerName = computerName;
 	}
 	
