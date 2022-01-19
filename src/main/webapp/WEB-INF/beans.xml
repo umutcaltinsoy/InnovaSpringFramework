@@ -20,4 +20,10 @@
     xsi:schemaLocation="
         http://xmlns.jcp.org/xml/ns/javaee
         http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd" bean-discovery-mode="all">
+        
+        
+        <!-- 2 tane Interface'den sadece bir tanesi çalıştırmak için, yani bir tanesini alternatif hale getirmek için kullanılır -->
+        <alternatives>
+        	<class>com.innova.a5.alternative.Java17</class>
+        </alternatives>
 </beans>
